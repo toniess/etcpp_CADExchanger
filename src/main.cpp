@@ -29,6 +29,7 @@ void fillAtRandom(std::vector<std::shared_ptr<Curve>>& curves) {
 }
 
 int main() {
+
     std::vector<std::shared_ptr<Curve>> curves;
     fillAtRandom(curves);
 
@@ -42,7 +43,7 @@ int main() {
                   << "\tderevative {" << i << ", " << j << ", " << k << "}\n";
     }
 
-    std::cout << "====================SORTED CIRCLES===================\n";
+    std::cout << "\nSORTED CIRCLES:\n";
 
     std::vector<std::shared_ptr<Circle>> circles;
     for(auto curve : curves) {
