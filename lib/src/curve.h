@@ -1,5 +1,6 @@
 #pragma once
 #pragma omp parallel for
+
 #include <iostream>
 #include <array>
 
